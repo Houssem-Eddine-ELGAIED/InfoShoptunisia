@@ -67,6 +67,11 @@ const Header = () => {
             <LinkContainer to="/contact">
               <Nav.Link className="mx-4">Contact</Nav.Link>
             </LinkContainer>
+              <LinkContainer to="/Admin/login">
+              <Nav.Link className="mx-4">Dasboard Adm</Nav.Link>
+            </LinkContainer>
+
+            
           </Nav>
 
           {/* Right part: Cart, Search, and User Sign In/Profile */}
